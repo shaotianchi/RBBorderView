@@ -28,10 +28,10 @@
 		C08C096A1C08104900A69EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C08C096D1C08104900A69EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C08C096F1C08104900A69EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C08C09761C08108800A69EDD /* RBBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBBorderView.h; sourceTree = "<group>"; };
-		C08C09771C08108800A69EDD /* RBBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBBorderView.m; sourceTree = "<group>"; };
-		C08C09781C08108800A69EDD /* UIView+RBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RBAddition.h"; sourceTree = "<group>"; };
-		C08C09791C08108800A69EDD /* UIView+RBAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RBAddition.m"; sourceTree = "<group>"; };
+		C08C09761C08108800A69EDD /* RBBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBBorderView.h; path = RBBorderView/RBBorderView.h; sourceTree = "<group>"; };
+		C08C09771C08108800A69EDD /* RBBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBBorderView.m; path = RBBorderView/RBBorderView.m; sourceTree = "<group>"; };
+		C08C09781C08108800A69EDD /* UIView+RBAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+RBAddition.h"; path = "RBBorderView/UIView+RBAddition.h"; sourceTree = "<group>"; };
+		C08C09791C08108800A69EDD /* UIView+RBAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+RBAddition.m"; path = "RBBorderView/UIView+RBAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,7 @@
 		C08C09521C08104900A69EDD = {
 			isa = PBXGroup;
 			children = (
+				C08C09751C08107F00A69EDD /* RBBorderView */,
 				C08C095D1C08104900A69EDD /* RBBorderViewDemo */,
 				C08C095C1C08104900A69EDD /* Products */,
 			);
@@ -64,7 +65,6 @@
 		C08C095D1C08104900A69EDD /* RBBorderViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C08C09751C08107F00A69EDD /* RBBorderView */,
 				C08C09611C08104900A69EDD /* AppDelegate.h */,
 				C08C09621C08104900A69EDD /* AppDelegate.m */,
 				C08C09641C08104900A69EDD /* ViewController.h */,
@@ -94,7 +94,8 @@
 				C08C09781C08108800A69EDD /* UIView+RBAddition.h */,
 				C08C09791C08108800A69EDD /* UIView+RBAddition.m */,
 			);
-			path = RBBorderView;
+			name = RBBorderView;
+			path = RBBorderViewDemo/RBBorderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
